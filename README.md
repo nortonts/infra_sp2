@@ -14,9 +14,18 @@ docker-compose -v
 ```
 Если не установлен, скачиваем с сайта [docker.com](https://www.docker.com/), следуя инструкциям для вашей ОС.
 ### Подготовка контейнера
-Скачиваем репозиторий
+Клонируем репозиторий
 ```
 git clone https://github.com/nortonts/infra_sp2
+```
+Создаем файл .env в клонированной директории
+```
+DB_ENGINE=django.db.backends.postgresql 
+DB_NAME= введите имя базы данных
+POSTGRES_USER= введите имя пользователя
+POSTGRES_PASSWORD= введите пароль
+DB_HOST=db 
+DB_PORT=5432 
 ```
 ### Запуск контейнера
 
