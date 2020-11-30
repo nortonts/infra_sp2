@@ -13,7 +13,11 @@ docker -v
 docker-compose -v
 ```
 Если не установлен, скачиваем с сайта [docker.com](https://www.docker.com/), следуя инструкциям для вашей ОС.
-
+### Подготовка контейнера
+Скачиваем репозиторий
+```
+git clone https://github.com/nortonts/infra_sp2
+```
 ### Запуск контейнера
 
 Сборка контейнера
